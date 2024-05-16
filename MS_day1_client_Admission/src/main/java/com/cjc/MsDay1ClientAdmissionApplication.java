@@ -11,6 +11,7 @@ public class MsDay1ClientAdmissionApplication {
 	public static void main(String[] args) 
 	{
 		System.out.println("This is ms client admisssion");
+		System.out.println("This is Admission Client");
 		SpringApplication.run(MsDay1ClientAdmissionApplication.class, args);
 	}
 
