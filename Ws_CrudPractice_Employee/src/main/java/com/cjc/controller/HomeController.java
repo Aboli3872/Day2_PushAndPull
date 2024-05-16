@@ -55,5 +55,11 @@ public class HomeController
 		Optional<Employee> e=esi.getSingleEmp(eid);
 		return e;
 	}
+	@PatchMapping("/updateEmp")
+	public String changeEmp(@RequestBody Employee e)
+	{
+		esi.updateEmp(e);
+		return "Updated emp";
+	}
 
 }
